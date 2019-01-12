@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+}
+
+#read-list {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  border: 2px, solid, black;
+  margin: 1em;
+  list-style-type: none;
+}
