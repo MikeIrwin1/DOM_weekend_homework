@@ -31,13 +31,18 @@
           <option value="Poor">Poor</option>
         </select>
       </p>
-      <p><button type="submit" id = "form-submit">Add Book</button></p>
-    </form>
+      <p>
+        <label for="price">Item Price(£): </label>
+        <input id = "price" type="number" required>
+      </p>
+      <p><button type="submit" id = "form-submit">Add Item</button></p>
 
-    <h1>Completed Books</h1>
-    <section id="read-list">
+    </form>
+    <button id="delete-all">Clear Inventory</button>
+
+    <h1>Listed Inventory</h1>
+    <section id="inventory-list">
 
     </section>
-    <button id="delete-all">Clear List</button>
   </body>
 </html>

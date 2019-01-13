@@ -2,10 +2,21 @@ h1 {
   color: blue;
 }
 
-#read-list {
+#form-wrapper {
+  background-color: aliceblue;
+  width: 330px;
+  padding: 10px 10px;
+}
+
+#inventory-list {
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+}
+
+#inventory-list-item {
+  border: 2px, solid, black;
+  background-color: blue;
 }
 
 li {
