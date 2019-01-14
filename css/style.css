@@ -21,11 +21,12 @@ h1 {
   border-style: solid;
   border-color: black;
   border-radius: 30px;
+  border-width: 2px;
   background-color: aliceblue;
 }
 
 li {
-  border: 2px, solid, black;
+  border: 1px, solid, black;
   margin: 1em;
   list-style-type: none;
 }
